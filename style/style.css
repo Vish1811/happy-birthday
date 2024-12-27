@@ -22,6 +22,14 @@ body {
   z-index: 1;
 }
 
+.wish {
+  position: relative; /* Ensures it's positioned relative to its parent */
+  z-index: 10; /* Ensures it appears above the image */
+  background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background if needed */
+  padding: 20px; /* Adds space around the text */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
 .container div.seven,
 .container div.eight {
   width: 100vw;
